@@ -13,13 +13,14 @@ ul {
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
+    margin: 4px;
 }
 
 a {
     text-decoration: none;
 }
 
-h1, .logo-text {
+h1, .logo-text, .placeholder, button {
     color: #F9FAF8;
 }
 
@@ -47,7 +48,8 @@ a, .sub-text {
 
 .header-content {
     display: flex;
-    justify-content: space-between;
+    gap: 16px;
+    margin-top: 100px;
 }
 
 .logo-text {
@@ -55,13 +57,33 @@ a, .sub-text {
 }
 
 .header-left {
+    flex: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 500px;
 }
 
+.sub-text {
+    margin: 4px;
+}
+
+.top-button {
+    margin: 4px;
+    background-color: #3882F6;
+    border: #3882F6;
+    border-radius: 8%;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 .header-right {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 500px;
     background-color: rgb(119, 118, 118);
 }
