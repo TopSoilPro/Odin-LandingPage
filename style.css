@@ -19,7 +19,7 @@ a, .sub-text, button {
     padding: 20px 200px 150px;
 }
 
-a, .sub-text {
+a, .sub-text, .footer {
     color: #E5E7EB;
 }
 
@@ -100,6 +100,15 @@ h1, .sub-text, .top-button {
     background-color: rgb(119, 118, 118);
 }
 
+/* middle body content */
 .content-middle {
     background-color: #E5E7EB;
+}
+
+/* footer content */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
 }
