@@ -1,5 +1,6 @@
 html {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 /* General content */
@@ -100,11 +101,21 @@ h1, .sub-text, .top-button {
     background-color: rgb(119, 118, 118);
 }
 
-/* upper body content */
+/* the upper/middle body content */
+.content-body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* --upper body content */
 .content-upper {
+    flex: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 400px;
 }
 
 h3 {
@@ -135,16 +146,26 @@ h3 {
     border-color: #3882F6;
 }
 
-/* middle body content */
+/* --middle body content */
 .content-middle {
+    flex: auto;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 60px 500px;
+    padding: 0px 500px;
+    min-height: 400px;
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
