@@ -138,7 +138,24 @@ h3 {
 /* middle body content */
 .content-middle {
     background-color: #E5E7EB;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 500px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    margin: 8px;
+}
+
+.citation {
+    align-self: flex-end;
+    font-weight: 1000;
+    margin: 0px 24px;
 }
 
 /* footer content */
