@@ -100,9 +100,45 @@ h1, .sub-text, .top-button {
     background-color: rgb(119, 118, 118);
 }
 
+/* upper body content */
+.content-upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937
+}
+
+.info-cards {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    padding: 25px;
+}
+
+.card {
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: 150px;
+}
+
+.illustration {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 8%;
+    border-width: 5px;
+    border-color: #3882F6;
+}
+
 /* middle body content */
 .content-middle {
     background-color: #E5E7EB;
+    margin-top: 50px;
 }
 
 /* footer content */
