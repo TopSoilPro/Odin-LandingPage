@@ -87,7 +87,7 @@ h1, .sub-text, .top-button {
 .top-button {
     background-color: #3882F6;
     border: #3882F6;
-    border-radius: 8%;
+    border-radius: 8px;
     width: 120px;
     height: 40px;
     font-size: 18px;
@@ -224,7 +224,7 @@ h6 {
     background-color: #3882F6;
     border: #F9FAF8;
     border-style: solid;
-    border-radius: 8%;
+    border-radius: 8px;
     width: 120px;
     height: 40px;
     font-size: 18px;
